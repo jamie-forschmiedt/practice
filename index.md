@@ -5,6 +5,10 @@
 </body>
 </html>
 
+```{r}
+hist(rnorm(100))
+
+```
 
 ## Welcome to GitHub Pages
 
