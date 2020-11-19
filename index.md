@@ -6,6 +6,8 @@
 </html>
 
 ```{r}
+## this shows some R code
+## will figure this out later
 hist(rnorm(100))
 
 ```
