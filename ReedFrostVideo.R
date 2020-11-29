@@ -4,7 +4,9 @@
 library(igraph)
 library(animation)
 
-# file pathway to ffmpeg, which is needed to create MP4 videos with the animation package
+# Creating a video with the animation package requires external software called FFmpeg.
+# You will need to download FFmpeg and then tell R the file pathway on your computer.
+# This is the pathway on my computer.
 ani.options("ffmpeg" = "C:/Users/jamie/Downloads/ffmpeg-2020-11-18-git-e3081d6f4f-full_build/bin/ffmpeg")
 
 # Creates a video of a disease spreading through a population according to the Reed-Frost SIR Model
