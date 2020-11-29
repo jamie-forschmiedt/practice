@@ -1,7 +1,7 @@
 # Reed-Frost Simulation
 The Reed-Frost model is a simple epidemiologic model in which each individual in a population takes one of three possible states: Susceptible (S), Infected (I), or Recovered (R).
 
-At each time step, every infected (I) individual has some probability p of coming into contact with each susceptible (S) individual, independently of the others. If a susceptible individual comes into contact with at least one infected individual, they will become infected for the next time step and recovered (R) the time step after that. As such, each infected individual is only infected for one time step and cannot be re-infected after they reach 'recovered' status.
+At each time step, each infected (I) individual has some probability p of coming into contact with each susceptible (S) individual, independently of the others. If a susceptible individual comes into contact with at least one infected individual, they will become infected for the next time step and recovered (R) the time step after that. As such, each infected individual is only infected for one time step and cannot be re-infected after they reach 'recovered' status.
 
 The examples below show a few different Reed-Frost simulations with a population size of 150 and 1 initial infection.
 
