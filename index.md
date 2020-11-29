@@ -7,16 +7,17 @@ The examples below show a few different Reed-Frost simulations with a population
 
 
 <html>
-<body>
+
 <iframe width="600" height="400" src="rfvideo.mp4"></iframe>
 <iframe width="600" height="400" src="rfvideo2.mp4"></iframe>
-</body>
+
 </html>
+
+Access the R code for the simulation [here] (https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R).
 
 ```{r}
 ## this shows some R code
 ## will figure this out later
-hist(rnorm(100))
 
 ```
 
