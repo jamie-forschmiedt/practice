@@ -13,6 +13,7 @@ The examples below show a few different Reed-Frost simulations with a population
 
 </html>
 
+[View](https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation on GitHub.
 [Download](https://downgit.github.io/#/home?url=https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation.
 
 ```{r}
