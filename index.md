@@ -7,17 +7,17 @@ The examples below show a few different Reed-Frost simulations with a population
 
 
 <html>
-
 <iframe width="600" height="400" src="rfvideo3.mp4"></iframe>
 <iframe width="600" height="400" src="rfvideo.mp4"></iframe>
 <iframe width="600" height="400" src="rfvideo2.mp4"></iframe>
-
 </html>
 
 [View](https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation on GitHub.
 
 [Download](https://downgit.github.io/#/home?url=https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation.
 
+
+<!---
 ```{r}
 ## this shows some R code
 ## will figure this out later
@@ -62,3 +62,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+--->
