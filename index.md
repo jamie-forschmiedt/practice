@@ -8,6 +8,7 @@ The examples below show a few different Reed-Frost simulations with a population
 
 <html>
 
+<iframe width="600" height="400" src="rfvideo3.mp4"></iframe>
 <iframe width="600" height="400" src="rfvideo.mp4"></iframe>
 <iframe width="600" height="400" src="rfvideo2.mp4"></iframe>
 
