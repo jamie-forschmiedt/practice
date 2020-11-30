@@ -9,7 +9,7 @@ The examples below show a few different Reed-Frost simulations with a population
 
 <html>
   <p>First, let's try the simulation with p=0.005 (in other words, there is a 0.5% chance of contact between each pair of individuals in the population at each time step). With this small value of p, we can see that the disease dies out before most of the population gets infected. Think of this as the effect of social distancing: if there is less contact between individuals in the population, there will be fewer opportunities for infection.</p>
-<iframe width="600" height="400" src="rfvideo3.mp4"></iframe>
+<iframe width="50%" height="50%" src="rfvideo3.mp4"></iframe>
 <br>  
 <p>Now let's try the simulation with a higher probability of contact, p=0.015. In this example, the disease spreads much more quickly through the population, but there are still some people who never get infected.</p>  
 <iframe width="600" height="400" src="rfvideo.mp4"></iframe>
