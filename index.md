@@ -1,20 +1,27 @@
-# Reed-Frost Simulation
+## What is the Reed-Frost Model?
 The Reed-Frost model is a simple epidemiologic model in which each individual in a population takes one of three possible states: Susceptible (S), Infected (I), or Recovered (R).
 
 At each time step, each infected (I) individual has some probability p of coming into contact with each susceptible (S) individual, independently of the others. If a susceptible individual comes into contact with at least one infected individual, they will become infected for the next time step and recovered (R) the time step after that. As such, each infected individual is only infected for one time step and cannot be re-infected after they reach 'recovered' status.
 
+## What does this look like?
 The examples below show a few different Reed-Frost simulations with a population size of 150 and 1 initial infection.
 
 
 <html>
+  <p>First, let's try the simulation with p=0.005 (in other words, there is a 0.5% chance of contact between each pair of individuals in the population at each time step). With this small value of p, we can see that the disease dies out before most of the population gets infected. Think of this as the effect of social distancing: if there is less contact between individuals in the population, there will be fewer opportunities for infection.</p>
 <iframe width="600" height="400" src="rfvideo3.mp4"></iframe>
+<br>  
+<p>Now let's try the simulation with a higher probability of contact, p=0.015. In this example, the disease spreads much more quickly through the population, but there are still some people who never get infected.</p>  
 <iframe width="600" height="400" src="rfvideo.mp4"></iframe>
+<br>
+<p>Finally, let's try p=0.05. In this example, contact between individuals is more likely, and the disease quickly spreads to the entire population.</p>
 <iframe width="600" height="400" src="rfvideo2.mp4"></iframe>
+<br>  
 </html>
 
-[View](https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation on GitHub.
+[View](https://github.com/jamie-forschmiedt/reedfrost/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation on GitHub.
 
-[Download](https://downgit.github.io/#/home?url=https://github.com/jamie-forschmiedt/practice/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation.
+[Download](https://downgit.github.io/#/home?url=https://github.com/jamie-forschmiedt/reedfrost/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation.
 
 
 <!---
