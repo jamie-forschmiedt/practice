@@ -1,5 +1,5 @@
 ## What is the Reed-Frost Model?
-The Reed-Frost model is a simple epidemiologic model in which each individual in a population takes one of three possible states: Susceptible (S), Infected (I), or Recovered (R).
+The Reed-Frost model is a simple epidemiologic model for the spread of disease through a population. In this model, each individual in the population takes one of three possible states: Susceptible (S), Infected (I), or Recovered (R).
 
 At each time step, each infected (I) individual has some probability p of coming into contact with each susceptible (S) individual, independently of the others. If a susceptible individual comes into contact with at least one infected individual, they will become infected for the next time step and recovered (R) the time step after that. As such, each infected individual is only infected for one time step and cannot be re-infected after they reach 'recovered' status.
 
