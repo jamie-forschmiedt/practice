@@ -21,7 +21,7 @@ The examples below show a few different Reed-Frost simulations with a population
 ### Connection to the Erdős-Rényi random graph
 
 The Erdős-Rényi model is one method of generating a random graph. Start with a graph of n vertices. For each pair of vertices, add an edge between them with some probability p, independently of all the other pairs. <br>
-![Image](ERgraph.png)
+<img src="ERgraph.png" height="450" width="500">
 
 The state of a Reed-Frost model with one initial infection at a given time t can be extrapolated from an Erdős-Rényi random graph using the graph distance between each vertex and the initial infected vertex.
 
