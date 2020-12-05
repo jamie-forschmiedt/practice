@@ -1,11 +1,10 @@
-## What is the Reed-Frost Model?
+### What is the Reed-Frost Model?
 The Reed-Frost model is a simple epidemiologic model for the spread of disease through a population. In this model, each individual in the population takes one of three possible states: Susceptible (S), Infected (I), or Recovered (R).
 
 At each time step, each infected (I) individual has some probability p of coming into contact with each susceptible (S) individual, independently of the others. If a susceptible individual comes into contact with at least one infected individual, they will become infected for the next time step and recovered (R) the time step after that. As such, each infected individual is only infected for one time step and cannot be re-infected after they reach 'recovered' status.
 
-## What does this look like?
+### What does this look like?
 The examples below show a few different Reed-Frost simulations with a population size of 150 and 1 initial infection.
-
 
 <html>
   <p>First, let's try the simulation with p=0.005 (in other words, there is a 0.5% chance of contact between each pair of individuals in the population at each time step). With this small value of p, we can see that the disease dies out before most of the population gets infected. Think of this as the effect of social distancing: if there is less contact between individuals in the population, there will be fewer opportunities for infection.</p>
@@ -19,55 +18,17 @@ The examples below show a few different Reed-Frost simulations with a population
 <br>  
 </html>
 
-[View](https://github.com/jamie-forschmiedt/reedfrost/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation on GitHub.
+### Connection to the Erdős-Rényi random graph
 
+The Erdős-Rényi model is one method of generating a random graph. Start with a graph of n vertices. For each pair of vertices, add an edge between them with some probability p, independently of all the other pairs. <br>
+![Image](ERgraph.png)
+
+The state of a Reed-Frost graph with one initial infection at a given time t can be extrapolated from an Erdős-Rényi random graph using the graph distance between each vertex and the initial infected vertex.
+
+### Additional resources
+See [Wikipedia](https://en.wikipedia.org/wiki/Reed%E2%80%93Frost_model) for more information on the Reed-Frost model. <br>
+See [Wikipedia](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model) for more information on the Erdős-Rényi random graph. <br>
+See [this chapter](https://www-cambridge-org.offcampus.lib.washington.edu/core/books/epidemics-and-rumours-in-complex-networks/reedfrost-epidemics-and-erdsrenyi-random-graphs/C59F42D33598700008672D1A717BDBB8#) of the book _Epidemics and Rumours in Complex Networks_ by Moez Draief and Laurent Massoulié for a full explanation of the connection between the Reed-Frost model and the Erdős-Rényi random graph. <br/>
+
+[View](https://github.com/jamie-forschmiedt/reedfrost/blob/gh-pages/ReedFrostVideo.R) the R code for the Reed-Frost simulation on GitHub. <br>
 [Download](https://downgit.github.io/#/home?url=https://github.com/jamie-forschmiedt/reedfrost/blob/gh-pages/ReedFrostVideo.R) the R code for the simulation.
-
-
-<!---
-```{r}
-## this shows some R code
-## will figure this out later
-
-```
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/jamie-forschmiedt/practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jamie-forschmiedt/practice/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
---->
