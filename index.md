@@ -15,11 +15,12 @@ The examples below show a few different Reed-Frost simulations with a population
 <br>
 <p>Finally, let's try p=0.05. In this example, contact between individuals is more likely, and the disease quickly spreads to the entire population.</p>
 <iframe width="500" height="400" src="rfvideo2.mp4"></iframe>
-<br>  
+<br> 
+<br>
 </html>
 
-### Connection to the Erdős-Rényi random graph
 
+### Connection to the Erdős-Rényi random graph
 The Erdős-Rényi model is one method of generating a random graph. Start with a graph of n vertices. For each pair of vertices, add an edge between them with some probability p, independently of all the other pairs. <br>
 <img src="ERgraph.png" height="450" width="500">
 
